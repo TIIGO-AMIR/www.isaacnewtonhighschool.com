@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+	padding: 20px;
+	background-color: gray;
+}
+
+section {
+    background-color: red;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color:cream;
+    color: green;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:midnightblue;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+nav {
+    background-color:red;
+    color: green;
+    padding: 1em;
+    text-align: center;
+	front-size: 50px;
+	margin-right:20px;
+	width:100%px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 150px;
+	width:100%px;
+	border-radius:50px 10px 50px 10px;
+}
+
+nav a {
+    color: green;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+</style>
+</head>
+<body>
+     <nav>
+        <ul style="background-color:red;padding:15px;front-size:20px;">
+            <li><a href="home Page.html">Home Page</a></l>
+            <li><a href="About Page.html">About Page</a></li>
+            <li><a href="Contact Page.html">Contact Page</a></li>
+        </ul>
+    </nav>
+	<h1>Get in Touch</h1>
+    
+    <section id="contact-info"><p></p>
+	<h2>Contact Information</h2>
+	
+	    <p>Address:</p>
+        <p>Phone: [0709096620/0701358889]</p>
+        <p>Email: [muwana.ezra@yahoo.com]</p>
+		
+    </section>
+    
+    <section id="contact-form">
+        <h2>Send Us a Message</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message">
+			</textarea><br><br>
+			<input type="submit" value="Send">
+        
+		</form>
+    </section>
+</body>
+</html>
